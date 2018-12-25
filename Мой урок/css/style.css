@@ -1,0 +1,74 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Bitter', 'Segoe UI' sans-serif;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0px;
+  margin: 0 200px;
+  z-index: 2;
+  box-sizing: content-box;
+}
+.topper {
+  display: inline-block;
+  background-color: #dde4ec;
+  height: 50px;
+  width: 100%;
+}
+.line {
+  width: 100%;
+  height: 3px;
+}
+.line-1 {
+  background-color: #59b7c2;
+}
+.line-2 {
+  background-color: #7fcbce;
+}
+.line-3 {
+  background-color: #aadce0;
+}
+.phonenumber {
+  display: inline-block;
+  width: 160px;
+  padding: 0 0 0 18px;
+  margin-top: 14px;
+  color: #444444;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  background: url("../img/icons/icon_phone.png") no-repeat left;
+}
+.welcome {
+  display: inline-block;
+  margin: 0 0 0 107px;
+  font-size: 12px;
+}
+
+.lang {
+  display: inline-block;
+  margin-left: 202px;
+  margin-right: auto;
+}
+.button {
+  display: inline-block;
+  padding:  11px 0; 
+  width: 36px;
+  height: 100%;
+  background-color: #e6e9ed;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #59b7c2;
+}
+.valute {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: auto;
+}
